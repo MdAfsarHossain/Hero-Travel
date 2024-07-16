@@ -1,0 +1,92 @@
+/* Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root {
+    --primary-color: rgb(255, 84, 0)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+
+/* Header */
+.header {
+    width: 1090px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 32px;
+    color: black;
+    font-weight: 900;
+}
+
+.travel {
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.nav-links li:first-child a {
+    color: var(--primary-color);
+}
+
+.nav-links li:hover a{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
