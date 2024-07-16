@@ -488,6 +488,50 @@ body {
 }
 
 
+/* Perfect Place To Get Lost */
+.perfect {
+    width: 1070px;
+    margin: 100px auto;
+}
+
+.perfect-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.perfect-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    margin-right: 100px;
+}
+
+.perfect-content ul {
+    margin-left: 25px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfect-video {
+    width: 100%;
+    height: 350px;
+}
+
+.perfect-video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.perfect-title {
+    font-size: 36px;
+}
+
+
 
 
 
