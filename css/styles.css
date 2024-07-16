@@ -249,6 +249,69 @@ body {
 
 
 
+/* Destination Styles */
+.destination {
+    width: 1070px;
+    margin: 100px auto;
+}
+
+.destination-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;    
+    gap: 15px;
+    text-align: center;
+}
+
+.destination-title {
+    font-size: 42px;
+}
+
+.destination-description {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.destination-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.destination-images .row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.destination-images img {
+    width: 100%;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    position: relative;
+}
+
+.destination-card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+
 
 
 
