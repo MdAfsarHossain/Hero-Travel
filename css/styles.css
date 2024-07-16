@@ -532,6 +532,88 @@ body {
 }
 
 
+/* Newsletter  */
+.newsletter {
+    width: 1070px;
+    margin: 100px auto;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.newsletter-description {
+    color: gray;
+}
+
+.newsletter-content input {
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(231, 231, 231);
+}
+
+.newsletter-content button {
+    width: 100%;
+}
+
+input::placeholder {
+    color: rgb(173, 171, 171);
+    font-size: 14px;
+}
+
+
+input:focus {
+    outline: none !important;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(221, 215, 215);
+}
+
+.newsletter-right-content {
+    position: relative;
+}
+
+.newsletter-right-content img {
+    width: 100%;
+}
+
+.save-up {
+    position: absolute;
+    background-color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 270px;
+    text-align: center;
+    color: white;
+
+    bottom: 65px;
+    right: 10px;
+    rotate: -25deg;
+}
+
+.save-up-title {
+    font-size: 18px;
+    font-weight: 400;    
+}
+
+.save-up-description {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
 
 
 
