@@ -1,0 +1,255 @@
+.hide {
+    display: none;
+}
+
+/* Responsive */
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+
+    /* Header */
+    .header {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    /* Banner */
+    .banner {
+        width: 95%;
+    }
+
+    .banner-container {
+        height: 100%;
+    }
+    
+    .banner-content {
+        padding: 45px 0px;
+
+    }
+
+    .where-go,
+    .when,
+    .type,
+    .find-now {
+        width: 160px;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .banner-options-container {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .banner-description {
+        font-size: 12px;
+    }
+
+    /* popular */
+    .popular { 
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .popular-container {
+        flex-direction: column;
+    }
+
+    .popular-title {
+        font-size: 35px;
+    }
+
+    .popular-description {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .popular-content {
+        width: 100%;
+    }
+
+    .popular-content ul li {
+        font-size: 14px;
+    }
+
+    .popular-container img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Destination */
+    .destination {
+        width: 95%;
+    }
+
+    .destination-title {
+        font-size: 30px;
+    }
+
+    .destination-description {
+        font-size: 12px;
+    }
+
+    .destination-images .row {
+        flex-direction: column;
+    }
+
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        height: 216px;
+    }
+
+    .srilanka img,
+    .north-america img,
+    .kashmir img,
+    .bangladesh img,
+    .bandarban img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+    /* Choose */
+    .choose {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .choose-title {
+        font-size: 35px;
+    }
+
+    .choose-description {
+        font-size: 14px !important;
+        width: 90% !important;
+    }
+
+
+    /* Deals */
+    .deals {
+        width: 95%;
+    }
+    
+    .deals-title {
+        font-size: 40px;
+    }
+
+    .deals-description {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .deals-card-details {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .deals-card {
+        height: 600px;
+    }
+    .deals-card img {
+        height: 100%;
+    }
+
+    
+    .deals-card-content {
+        width: 350px;
+        top: 200px;
+        right: 25px;
+        padding: 30px 20px;
+    }
+    
+    .deals-card-day-night {
+        width: 100vw;
+        justify-content: flex-start;
+    }
+
+    .deals-card-max {
+        margin-right: 50px
+    }
+
+    .deals-card-title {
+        font-size: 25px;
+    }
+
+    .deals-card-description {
+        font-size: 14px;
+    }
+
+    .deals-card-price {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+
+    /* Perfect */
+    .perfect {
+        width: 90%;
+    }
+
+    .perfect-container {
+        flex-direction: column;
+    }
+
+    .perfect-title {
+        font-size: 30px;
+    }
+
+    .perfect-description { 
+        font-size: 14px;
+    }
+
+    .perfect-content {
+        font-size: 14px;
+    }
+
+    .perfect-content button {
+        margin-bottom: 20px;
+    }
+
+    /* Newsletter */
+    .newsletter {
+        width: 90%;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .footer-container {
+        width: 80%;
+    }
+
+    .footer-logo a:first-child img{
+        width: 80% !important;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
